@@ -25,7 +25,7 @@ In this project, we conduct a fairness audit and apply bias mitigation technique
 
 \subsection*{Methodology}
 \begin{itemize}
-    \item \textbf{Baseline Model:} Random Forest Classifier. It is robust to outliers and mixed data types, and captures non-linear relationships well without complex tuning.
+    \item \textbf{Baseline Model:} Random Forest Classifier. It is a reliable machine learning model that can handle ojutliers and mixed data types. It also capture non-linear relationships properly with complex tuning.
     \item \textbf{Fairness Metrics:} 
     \begin{itemize}
         \item \textit{Demographic Parity Difference}: Measures the difference in positive prediction rates between demographic groups.
@@ -33,7 +33,7 @@ In this project, we conduct a fairness audit and apply bias mitigation technique
     \end{itemize}
     \item \textbf{Mitigation Techniques:}
     \begin{itemize}
-        \item \textit{Preprocessing}: Resampling training data to balance target distributions across age groups.
+        \item \textit{Preprocessing}: It works by resampling training data in order to balance target distributions across different age groups.
         \item \textit{In-processing}: Exponentiated Gradient optimization from \texttt{fairlearn} with a Demographic Parity constraint.
     \end{itemize}
 \end{itemize}
@@ -55,7 +55,7 @@ In this project, we conduct a fairness audit and apply bias mitigation technique
 \end{itemize}
 
 \subsection*{Analysis}
-The baseline model achieves solid predictive metrics but exhibits notable disparities. The DP difference of 0.147 and EO difference of 0.224 suggest that one demographic group is systematically disfavored by the model. Historically and contextually, individuals under 25 are usually penalized by credit scoring models, leading to fewer positive outcomes (credit approvals) and higher error rates.
+The model scores high on predictive metrics but it contains notable disparities. The DP difference of 0.147 and EO difference of 0.224 that there is a demographic group favorable to the model than the other. Historically and contextually, individuals under 25 are usually penalized by credit scoring models, this leads to less credit approvals and higher error rates.
 
 \begin{figure}[h]
     \centering
