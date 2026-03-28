@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.10)  28 MAR 2026 19:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.10)  28 MAR 2026 19:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -329,24 +329,45 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  [1
 
 {C:/Users/WIN 11/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-<baseline_plot.png, id=38, 722.7pt x 289.08pt>
-File: baseline_plot.png Graphic file (type png)
-<use baseline_plot.png>
-Package pdftex.def Info: baseline_plot.png  used on input line 62.
-(pdftex.def)             Requested size: 452.9679pt x 181.18622pt.
- [2 <C:/Users/WIN 11/Desktop/AUC/4. Senior Year/Spring 2026/Responsible and Eth
-ical Artificial Intelligence/Project/Submission/baseline_plot.png>]
-<tradeoff_plot.png, id=46, 578.16pt x 361.35pt>
+<prediction_rates.png, id=38, 578.16pt x 361.35pt>
+File: prediction_rates.png Graphic file (type png)
+<use prediction_rates.png>
+Package pdftex.def Info: prediction_rates.png  used on input line 62.
+(pdftex.def)             Requested size: 452.9679pt x 283.10349pt.
+<error_rates.png, id=40, 578.16pt x 361.35pt>
+File: error_rates.png Graphic file (type png)
+<use error_rates.png>
+Package pdftex.def Info: error_rates.png  used on input line 68.
+(pdftex.def)             Requested size: 452.9679pt x 283.10349pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<fairness_gaps.png, id=41, 578.16pt x 361.35pt>
+File: fairness_gaps.png Graphic file (type png)
+<use fairness_gaps.png>
+Package pdftex.def Info: fairness_gaps.png  used on input line 74.
+(pdftex.def)             Requested size: 452.9679pt x 283.10349pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[2 <C:/Users/WIN 11/Desktop/AUC/4. Senior Year/Spring 2026/Responsible and Ethi
+cal Artificial Intelligence/Project/Submission/prediction_rates.png>] [3 <C:/Us
+ers/WIN 11/Desktop/AUC/4. Senior Year/Spring 2026/Responsible and Ethical Artif
+icial Intelligence/Project/Submission/error_rates.png>]
+<tradeoff_plot.png, id=54, 578.16pt x 361.35pt>
 File: tradeoff_plot.png Graphic file (type png)
 <use tradeoff_plot.png>
-Package pdftex.def Info: tradeoff_plot.png  used on input line 100.
+Package pdftex.def Info: tradeoff_plot.png  used on input line 112.
 (pdftex.def)             Requested size: 362.37569pt x 226.48279pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[3] [4 <C:/Users/WIN 11/Desktop/AUC/4. Senior Year/Spring 2026/Responsible and 
-Ethical Artificial Intelligence/Project/Submission/tradeoff_plot.png>]
+[4 <C:/Users/WIN 11/Desktop/AUC/4. Senior Year/Spring 2026/Responsible and Ethi
+cal Artificial Intelligence/Project/Submission/fairness_gaps.png>] [5 <C:/Users
+/WIN 11/Desktop/AUC/4. Senior Year/Spring 2026/Responsible and Ethical Artifici
+al Intelligence/Project/Submission/tradeoff_plot.png>] [6]
 (C:\Users\WIN 11\Desktop\AUC\4. Senior Year\Spring 2026\Responsible and Ethical
  Artificial Intelligence\Project\Submission\report.aux)
  ***********
@@ -357,13 +378,13 @@ Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: 61161FAF88BC4B68D76BCF6E6E2532D4;1323.
  ) 
 Here is how much of TeX's memory you used:
- 9303 strings out of 467867
- 144842 string characters out of 5428396
+ 9321 strings out of 467867
+ 145211 string characters out of 5428396
  570698 words of memory out of 5000000
- 38098 multiletter control sequences out of 15000+600000
+ 38112 multiletter control sequences out of 15000+600000
  631304 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,6n,79p,507b,509s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,6n,79p,507b,510s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\WIN 11\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcr
 m1200.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:
 /Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program File
@@ -371,10 +392,10 @@ s/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX/font
 s/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX/fonts/type1/publ
 ic/amsfonts/cm/cmtt12.pfb>
 Output written on "C:\Users\WIN 11\Desktop\AUC\4. Senior Year\Spring 2026\Respo
-nsible and Ethical Artificial Intelligence\Project\Submission\report.pdf" (4 pa
-ges, 137373 bytes).
+nsible and Ethical Artificial Intelligence\Project\Submission\report.pdf" (6 pa
+ges, 186518 bytes).
 PDF statistics:
- 88 PDF objects out of 1000 (max. 8388607)
- 13 named destinations out of 1000 (max. 500000)
- 59 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 102 PDF objects out of 1000 (max. 8388607)
+ 17 named destinations out of 1000 (max. 500000)
+ 69 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -59,8 +59,20 @@ The baseline model achieves solid predictive metrics but exhibits notable dispar
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=\textwidth]{baseline_plot.png}
-    \caption{Baseline positive prediction rates and error rates across Age groups.}
+    \includegraphics[width=\textwidth]{prediction_rates.png}
+    \caption{Positive prediction rates (selection rates) across Age groups for all models.}
+\end{figure}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\textwidth]{error_rates.png}
+    \caption{Error rates across Age groups for all models. Disparities indicate negative impact on the underprivileged group.}
+\end{figure}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\textwidth]{fairness_gaps.png}
+    \caption{Comparison of Fairness Metric Gaps (Demographic Parity and Equalized Odds difference) across all interventions.}
 \end{figure}
 
 \section{Preprocessing Bias Mitigation}
