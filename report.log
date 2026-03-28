@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.10)  28 MAR 2026 19:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.10)  28 MAR 2026 22:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./Submission/report.tex
-(Submission/report.tex
+**./report.tex
+(report.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
 (C:\Program Files\MiKTeX\tex/latex/base\article.cls
@@ -234,9 +234,7 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count302
-)
-(C:\Users\WIN 11\Desktop\AUC\4. Senior Year\Spring 2026\Responsible and Ethical
- Artificial Intelligence\Project\Submission\report.aux)
+) (report.aux)
 \openout1 = `report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
@@ -257,7 +255,6 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
 LaTeX Font Info:    ... okay on input line 19.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 19.
 LaTeX Font Info:    ... okay on input line 19.
-
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -314,11 +311,8 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package hyperref Info: Link coloring OFF on input line 19.
-
-(C:\Users\WIN 11\Desktop\AUC\4. Senior Year\Spring 2026\Responsible and Ethical
- Artificial Intelligence\Project\Submission\report.out)
-(C:\Users\WIN 11\Desktop\AUC\4. Senior Year\Spring 2026\Responsible and Ethical
- Artificial Intelligence\Project\Submission\report.out)
+ (report.out)
+(report.out)
 \@outlinefile=\write3
 \openout3 = `report.out'.
 
@@ -351,10 +345,7 @@ Package pdftex.def Info: fairness_gaps.png  used on input line 74.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[2 <C:/Users/WIN 11/Desktop/AUC/4. Senior Year/Spring 2026/Responsible and Ethi
-cal Artificial Intelligence/Project/Submission/prediction_rates.png>] [3 <C:/Us
-ers/WIN 11/Desktop/AUC/4. Senior Year/Spring 2026/Responsible and Ethical Artif
-icial Intelligence/Project/Submission/error_rates.png>]
+[2 <./prediction_rates.png>] [3 <./error_rates.png>]
 <tradeoff_plot.png, id=54, 578.16pt x 361.35pt>
 File: tradeoff_plot.png Graphic file (type png)
 <use tradeoff_plot.png>
@@ -364,38 +355,45 @@ Package pdftex.def Info: tradeoff_plot.png  used on input line 112.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[4 <C:/Users/WIN 11/Desktop/AUC/4. Senior Year/Spring 2026/Responsible and Ethi
-cal Artificial Intelligence/Project/Submission/fairness_gaps.png>] [5 <C:/Users
-/WIN 11/Desktop/AUC/4. Senior Year/Spring 2026/Responsible and Ethical Artifici
-al Intelligence/Project/Submission/tradeoff_plot.png>] [6]
-(C:\Users\WIN 11\Desktop\AUC\4. Senior Year\Spring 2026\Responsible and Ethical
- Artificial Intelligence\Project\Submission\report.aux)
+[4 <./fairness_gaps.png>] [5 <./tradeoff_plot.png>]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 134.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 134.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 134.
+ [6] (report.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
-Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 61161FAF88BC4B68D76BCF6E6E2532D4;1323.
+
+
+Package rerunfilecheck Warning: File `report.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `report.out':
+(rerunfilecheck)             Before: 61161FAF88BC4B68D76BCF6E6E2532D4;1323
+(rerunfilecheck)             After:  A324B5EE40724CAEE00A352490D40A58;1427.
  ) 
 Here is how much of TeX's memory you used:
- 9321 strings out of 467867
- 145211 string characters out of 5428396
+ 9338 strings out of 467867
+ 144647 string characters out of 5428396
  570698 words of memory out of 5000000
- 38112 multiletter control sequences out of 15000+600000
- 631304 words of font info for 52 fonts, out of 8000000 for 9000
+ 38123 multiletter control sequences out of 15000+600000
+ 633742 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,6n,79p,507b,510s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,6n,79p,496b,510s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\WIN 11\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcr
 m1200.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:
 /Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program File
 s/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX/font
 s/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX/fonts/type1/publ
 ic/amsfonts/cm/cmtt12.pfb>
-Output written on "C:\Users\WIN 11\Desktop\AUC\4. Senior Year\Spring 2026\Respo
-nsible and Ethical Artificial Intelligence\Project\Submission\report.pdf" (6 pa
-ges, 186518 bytes).
+Output written on report.pdf (6 pages, 190269 bytes).
 PDF statistics:
- 102 PDF objects out of 1000 (max. 8388607)
- 17 named destinations out of 1000 (max. 500000)
+ 105 PDF objects out of 1000 (max. 8388607)
+ 18 named destinations out of 1000 (max. 500000)
  69 words of extra memory for PDF output out of 10000 (max. 10000000)
 
