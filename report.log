@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.10)  28 MAR 2026 19:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.10)  28 MAR 2026 19:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -328,8 +328,25 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 22.
  [1
 
-{C:/Users/WIN 11/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2] [3] [4]
+{C:/Users/WIN 11/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+<baseline_plot.png, id=38, 722.7pt x 289.08pt>
+File: baseline_plot.png Graphic file (type png)
+<use baseline_plot.png>
+Package pdftex.def Info: baseline_plot.png  used on input line 62.
+(pdftex.def)             Requested size: 452.9679pt x 181.18622pt.
+ [2 <C:/Users/WIN 11/Desktop/AUC/4. Senior Year/Spring 2026/Responsible and Eth
+ical Artificial Intelligence/Project/Submission/baseline_plot.png>]
+<tradeoff_plot.png, id=46, 578.16pt x 361.35pt>
+File: tradeoff_plot.png Graphic file (type png)
+<use tradeoff_plot.png>
+Package pdftex.def Info: tradeoff_plot.png  used on input line 100.
+(pdftex.def)             Requested size: 362.37569pt x 226.48279pt.
 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[3] [4 <C:/Users/WIN 11/Desktop/AUC/4. Senior Year/Spring 2026/Responsible and 
+Ethical Artificial Intelligence/Project/Submission/tradeoff_plot.png>]
 (C:\Users\WIN 11\Desktop\AUC\4. Senior Year\Spring 2026\Responsible and Ethical
  Artificial Intelligence\Project\Submission\report.aux)
  ***********
@@ -340,10 +357,10 @@ Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: 61161FAF88BC4B68D76BCF6E6E2532D4;1323.
  ) 
 Here is how much of TeX's memory you used:
- 9284 strings out of 467867
- 144425 string characters out of 5428396
+ 9303 strings out of 467867
+ 144842 string characters out of 5428396
  570698 words of memory out of 5000000
- 38081 multiletter control sequences out of 15000+600000
+ 38098 multiletter control sequences out of 15000+600000
  631304 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,6n,79p,507b,509s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -355,9 +372,9 @@ s/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX/fonts/type1/publ
 ic/amsfonts/cm/cmtt12.pfb>
 Output written on "C:\Users\WIN 11\Desktop\AUC\4. Senior Year\Spring 2026\Respo
 nsible and Ethical Artificial Intelligence\Project\Submission\report.pdf" (4 pa
-ges, 86675 bytes).
+ges, 137373 bytes).
 PDF statistics:
- 80 PDF objects out of 1000 (max. 8388607)
- 11 named destinations out of 1000 (max. 500000)
- 49 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 88 PDF objects out of 1000 (max. 8388607)
+ 13 named destinations out of 1000 (max. 500000)
+ 59 words of extra memory for PDF output out of 10000 (max. 10000000)
 

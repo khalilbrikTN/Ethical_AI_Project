@@ -57,6 +57,12 @@ In this project, we conduct a fairness audit and apply bias mitigation technique
 \subsection*{Analysis}
 The baseline model achieves solid predictive metrics but exhibits notable disparities. The DP difference of 0.147 and EO difference of 0.224 suggest that one demographic group is systematically disfavored by the model. Historically and contextually, individuals under 25 are usually penalized by credit scoring models, leading to fewer positive outcomes (credit approvals) and higher error rates.
 
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\textwidth]{baseline_plot.png}
+    \caption{Baseline positive prediction rates and error rates across Age groups.}
+\end{figure}
+
 \section{Preprocessing Bias Mitigation}
 
 \textbf{Technique applied:} Resampling
@@ -89,7 +95,11 @@ The in-processing technique uses a constraint-based optimization to explicitly e
 
 A fundamental tension exists between Accuracy and Fairness. The baseline model prioritized accuracy but ignored fairness. The mitigation models reduced accuracy slightly but achieved much lower DP differences. This trade-off is inevitable because enforcing statistical parity forces the model to deviate from the purely accuracy-maximizing decision boundary that was learned from culturally or historically biased data.
 
-\textit{Note: Visualizations have been generated and saved via the accompanying Jupyter Notebook execution.}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{tradeoff_plot.png}
+    \caption{Performance vs Fairness Trade-off across the Baseline, Preprocessing, and In-processing models.}
+\end{figure}
 
 \section{Recommendations \& Real-world Harms}
 
